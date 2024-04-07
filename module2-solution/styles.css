@@ -1,0 +1,112 @@
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 5;
+    padding: 5;
+}
+body {
+    background-color: #85929E; /*gray*/
+}
+
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;;
+}
+
+p {
+    color: #17202A; 
+    width: 90%;
+    height: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: relative;
+} 
+
+
+.box {
+    background-color: #F8F9F9;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+    overflow: visible;
+}
+.title {
+    padding: 5px 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/*Coloring titles differently*/
+.title-orange {
+    background-color: #F16154;
+}
+.title-blue {
+    background-color: #0A79D5;
+}
+.title-pink {
+    background-color: #E06BF7;
+}
+
+
+
+/********** Desktop styles **********/
+/*Show this version when width is > 992px*/
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+    float: left;
+  }
+    .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+
+
+
+/********** Tablet styles **********/
+/*This is working, just can't figure out the padding between fish and beef*/
+
+/*Show this version when width is between 768px and 991px*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+    float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+
+}
+
+
+/********** Mobile styles **********/
+/*Show this version when width =< 767px*/
+/*IT WORKS*/
+@media (min-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+
+    }
+}
+
+
+/*This is a test to see if i can push to git successfully*/
