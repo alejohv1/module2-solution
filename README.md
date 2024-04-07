@@ -1,1 +1,2 @@
-Trying to submit my assignment for module 2 but keep getting git errors - this is a test
+Can't figure out the .io requirement for the life of me. 
+Contains solution for assignment 2
